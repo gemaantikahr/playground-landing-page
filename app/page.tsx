@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
@@ -53,7 +51,7 @@ export default function Home() {
           <form className="mt-4">
             <input type="text" className="border p-2 w-full mb-4" placeholder="Your Name" />
             <input type="email" className="border p-2 w-full mb-4" placeholder="Your Email" />
-            <textarea className="border p-2 w-full mb-4" placeholder="Your Message" rows="4"></textarea>
+            <textarea className="border p-2 w-full mb-4" placeholder="Your Message"></textarea>
             <button type="submit" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
               Submit
             </button>
